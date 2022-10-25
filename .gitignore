@@ -127,3 +127,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Original lnetatmo files
+netatmo_tests/
+lnetatmo.py
+raindata.p
+NetatmoWeatherStation.py
+setup.cfg
+setup.py
+usage.md
