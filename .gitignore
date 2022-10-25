@@ -132,7 +132,10 @@ dmypy.json
 netatmo_tests/
 lnetatmo.py
 raindata.p
-NetatmoWeatherStation.py
+NetatmoPython.py
 setup.cfg
 setup.py
 usage.md
+
+# secret files
+.netatmo.credentials
