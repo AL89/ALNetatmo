@@ -1,12 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
-name = "Anetatmo"
+name = "ANetatmoWeather"
 version = "0.1.0"
-description = "Add your description here"
+description = "Retrieve weather data from Netatmo API and store them in a local DuckDB database."
 readme = "README.md"
 requires-python = ">=3.13"
+license = { text = "MIT" }
+authors = [
+    { name = "Andreas Løvgaard", email = "andreas@loevgaard.dk" }
+]
+keywords = ["Netatmo", "weather", "API", "DuckDB"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
 dependencies = [
     "duckdb>=1.4.3",
     "pandas>=2.3.3",
     "pydantic>=2.12.5",
     "requests>=2.32.5",
 ]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/my-package"
+Issues = "https://github.com/yourusername/my-package/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]

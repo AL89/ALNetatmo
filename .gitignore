@@ -14,5 +14,7 @@ old/
 
 # File types
 *.ipynb
+*.json
 uv.lock
 .python-version
+src/auth_code.txt
